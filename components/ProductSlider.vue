@@ -72,12 +72,11 @@ const breakpoints = {
 
 const prevBtnRef = ref(null);
 const nextBtnRef = ref(null);
-
-// هنا استخدمنا any لتجنب الخطأ
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const swiperRef = ref<any>(null);
 
 const activeIndex = ref(0);
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function onActiveIndexChange(swiper: any) {
   activeIndex.value = swiper.realIndex;
 }

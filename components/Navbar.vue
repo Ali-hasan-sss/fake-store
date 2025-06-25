@@ -21,7 +21,7 @@ onMounted(() => {
             <!-- الشعار -->
             <NuxtLink to="/" class="navbar-brand">
               <img
-                src="/Images/Icons/DEVELOPER TEST - Logo Black.png"
+                src="/Images/Icons/LogoBlack.png"
                 alt="Logo"
                 style="width: 110px"
               />

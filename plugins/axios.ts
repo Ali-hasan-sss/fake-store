@@ -12,6 +12,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 
   // إضافة توكن من الكوكيز (مثلاً)
   api.interceptors.request.use((config) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const cookies = (nuxtApp as any).$cookies;
     const token = cookies?.get("token");
     if (token) {
