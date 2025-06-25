@@ -5,12 +5,12 @@
         <!-- العمود 1: الشعار وروابط التواصل -->
         <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
           <div class="d-flex flex-column align-items-start">
-            <img
+            <!-- <img
               src="/images/icons/logo.png"
               alt="Logo"
               class="mb-3"
               style="width: 200px"
-            />
+            /> -->
             <div class="d-flex gap-3 mt-3 social-links">
               <a href="#"><i class="bi bi-facebook fs-5"></i></a>
               <a href="#"><i class="bi bi-instagram fs-5"></i></a>
