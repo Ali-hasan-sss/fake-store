@@ -23,7 +23,7 @@ const slides = [
     text: "ACCESS A LIMITED SELECTION WITH UP TO 70% OFF",
     buttonText: "Shop Now",
     buttonLink: "/products",
-    image: "/Images/Header.jpg",
+    image: "/images/header.jpg",
     buttonStyle: "btn-dark",
   },
   {
@@ -32,7 +32,7 @@ const slides = [
     text: "Get the best offers before they end",
     buttonText: "Explore Deals",
     buttonLink: "/",
-    image: "/Images/Header.jpg",
+    image: "/images/header.jpg",
     buttonStyle: "btn-dark",
   },
 ];

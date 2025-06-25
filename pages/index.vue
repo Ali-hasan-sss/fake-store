@@ -21,37 +21,37 @@ import Cta from "~/components/CTA.vue";
 import CTA from "~/components/shared/CTA.vue";
 const products = [
   {
-    image: "/Images/1.jpg",
+    image: "/images/a.jpg",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
     oldPrice: "AED 999.00",
   },
   {
-    image: "/Images/2.jpg",
+    image: "/images/aa.jpg",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
     oldPrice: "AED 999.00",
   },
   {
-    image: "/Images/3.jpg",
+    image: "/images/aaa.jpg",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
     oldPrice: "AED 999.00",
   },
   {
-    image: "/Images/4.jpg",
+    image: "/images/aaaa.jpg",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
     oldPrice: "AED 999.00",
   },
   {
-    image: "/Images/F.png",
+    image: "/images/b.png",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
     oldPrice: "AED 999.00",
   },
   {
-    image: "/Images/F.png",
+    image: "/images/bb.png",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
     oldPrice: "AED 999.00",
@@ -59,22 +59,22 @@ const products = [
 ];
 const newestProducts = [
   {
-    image: "/Images/D.png",
+    image: "/images/bbb.png",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
   },
   {
-    image: "/Images/F.png",
+    image: "/images/bbbb.png",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
   },
   {
-    image: "/Images/G.png",
+    image: "/images/b.png",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
   },
   {
-    image: "/Images/H.png",
+    image: "/images/bb.png",
     description: "Lorem ipsum dolor",
     price: "AED 899.00",
   },
