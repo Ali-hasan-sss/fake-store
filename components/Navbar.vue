@@ -19,13 +19,13 @@ onMounted(() => {
         <nav class="navbar navbar-expand-lg navbar-light py-0">
           <div class="container-fluid px-0">
             <!-- الشعار -->
-            <NuxtLink to="/" class="navbar-brand">
+            <!-- <NuxtLink to="/" class="navbar-brand">
               <img
                 src="/images/icons/logoBlack.png"
                 alt="Logo"
                 style="width: 110px"
               />
-            </NuxtLink>
+            </NuxtLink> -->
 
             <button
               class="navbar-toggler"
