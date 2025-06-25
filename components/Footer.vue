@@ -6,7 +6,7 @@
         <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
           <div class="d-flex flex-column align-items-start">
             <img
-              src="/images/icons/Logo.png"
+              src="/images/icons/logo.png"
               alt="Logo"
               class="mb-3"
               style="width: 200px"
