@@ -2,7 +2,7 @@
   <div class="my-4">
     <div
       class="d-flex justify-content-center align-items-center"
-      :style="`background-image: url(/images/Untitled-1.jpg); height: 80vh; background-size: cover; background-position: center;`"
+      :style="`background-image: url('/images/untitled-1.jpg'); height: 80vh; background-size: cover; background-position: center;`"
     >
       <div class="container position-relative text-white text-start">
         <div

@@ -18,7 +18,7 @@ import HeroButton from "~/components/shared/primaryButton.vue";
 
 <style scoped>
 .jeeilry-banner {
-  background-image: url("/images/Jewelry.jpg");
+  background-image: url("/images/jewelry.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

@@ -193,7 +193,7 @@ function isActive(path: string) {
                 >
               </div>
               <!-- البحث والأيقونات تحتها -->
-              <div class="d-flex align-items-center gap-3 mt-2">
+              <div class="d-flex align-items-center px-1 gap-3 mt-2">
                 <SearchBar />
                 <button
                   @click="goToAccount"
@@ -280,6 +280,25 @@ function isActive(path: string) {
 .navbar,
 .navbar > .container-fluid,
 .navbar-collapse {
-  overflow-x: auto !important;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+.position-relative {
+  overflow: visible !important;
+}
+
+.badge {
+  min-width: 18px;
+  min-height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+  font-size: 0.7rem;
+  top: -6px !important;
+  left: auto !important;
+  right: 0 !important;
+  transform: none !important;
 }
 </style>
