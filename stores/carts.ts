@@ -7,6 +7,7 @@ export const useCartStore = defineStore("cart", {
     loading: false,
     error: null as string | null,
     userId: 1,
+    updatingItemId: null as number | null,
   }),
 
   getters: {
@@ -73,12 +74,11 @@ export const useCartStore = defineStore("cart", {
 
     async updateProductQuantity(productId: number, quantity: number) {
       if (!this.cart) return;
-
+      this.updatingItemId = productId;
       this.loading = true;
       try {
         const { $api } = useNuxtApp();
 
-        // إيجاد المنتج وتحديث الكمية أو حذفه لو الكمية صفر أو أقل
         const productIndex = this.cart.products.findIndex(
           (p) => p.productId === productId
         );
